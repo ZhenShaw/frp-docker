@@ -1,6 +1,6 @@
 FROM alpine
 
-MAINTAINER zhenshaw <zhenshaw@foxmail.com>
+LABEL zhenshaw <zhenshaw@foxmail.com>
 
 RUN apk add --update tzdata
 ENV TZ=Asia/Shanghai
