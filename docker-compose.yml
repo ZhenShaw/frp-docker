@@ -1,0 +1,12 @@
+version: '3'
+services:
+  frp:
+    image: zhenshaw/frp-docker
+    container_name: frp
+    ports:
+      - 7000:7000
+      - 7500:7500
+    volumes:
+      - $PWD/conf:/conf
+    command: "frpc"
+
