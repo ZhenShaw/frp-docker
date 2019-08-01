@@ -22,6 +22,6 @@ docker run -itd -v $PWD/conf:/conf zhenshaw/frp frpc
 ### Alternative
 Modify configure file in conf.
 ```bash
-# Default run frps, modify docker-compose.yml as you need.
+# Default run frpc, modify docker-compose.yml as you need.
 docker-compose up -d
 ```
